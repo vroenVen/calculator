@@ -1,6 +1,8 @@
 init()
+
 function init(){
 	hideCopyBool = false
+
 }
 function copyInput(type=""){
 	var copyied = document.getElementById("input").value
@@ -60,3 +62,5 @@ function showHideCopy(){
 	//refresh screen so that the changes get shown
 	calque.repaint()
 }
+
+
